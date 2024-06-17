@@ -440,7 +440,17 @@
     }
 
   </script>
+  <!-- open Enrollment on a new window -->
+  <script>
+    // JS code that opens the game page on a new window
+    document.getElementById('enrollmentID').addEventListener('click', this.openWindow);
 
+    function openWindow(ev) {
+      console.log('open a popup window');
+      let gameWindow = window.open('Enrolment.html', null, 'popup, width=1000, height=800, left=200, top=30')
+    }
+
+  </script>
 </body>
 
 </html>
