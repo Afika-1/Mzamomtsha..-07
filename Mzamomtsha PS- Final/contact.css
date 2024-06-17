@@ -464,11 +464,14 @@ footer{
 .col-8 ul li:hover.active a .text{
   color: white;
 }
-.col-8 ul li:hover.active a .icon{
-  color: white;
-  background-color: #98962b;
-}
+.col-8 ul li:hover{
+  box-shadow: 1px  2px 1px 1px rgb(193, 235, 202);
 
+}
+.col-8 ul li:hover.active{
+  box-shadow: 1px  2px 1px 1px #98962b;
+
+}
 .col-8 ul li.active a .icon{
   transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
