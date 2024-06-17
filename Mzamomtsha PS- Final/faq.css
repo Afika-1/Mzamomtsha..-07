@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 h1{
@@ -10,6 +9,10 @@ h1{
 h5, h3{color: white;}
 footer{
 	background-color:#0b3c63;
+    bottom: 0;
+}
+body{
+    height: 100vh;
 }
 .answer{
     background-color: #5d7d97;
