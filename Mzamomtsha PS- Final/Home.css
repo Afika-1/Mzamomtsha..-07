@@ -38,7 +38,7 @@ footer{
 }
 
 body, html {
-	height: 80%;
+	height: 100%;
     font-family: 'Quicksand', serif;
     font-style: normal;
     font-weight: 400;
@@ -52,7 +52,7 @@ body, html {
   .bg-image {
   /*Theimageused*/background-image: url("media/1.jpg");
   filter: blur(1px);
-  /*Fullheight*/height:80vh;
+  height:70vh;
   /*Centerandscaletheimagenicely*/background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +84,11 @@ body, html {
 
 
 /* Navbar begins*/
-
+/* .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 .col-8{
     display:flex;
     position: relative;
