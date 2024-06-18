@@ -19,7 +19,6 @@ body{
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  /* background-image: url('');   */
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -407,6 +406,7 @@ footer{
   font-weight: 400;
   letter-spacing: 0; background-color:#0b3c63;}
 
+
 .col-8{
   display:flex;
   position: relative;
@@ -422,7 +422,6 @@ footer{
 .col-8 ul{
   position: relative;
   display: flex;
-  /* width: 350px; */
 }
 .col-8 ul li{
   position: relative;
@@ -472,6 +471,7 @@ footer{
   box-shadow: 1px  2px 1px 1px #98962b;
 
 }
+
 .col-8 ul li.active a .icon{
   transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
@@ -639,7 +639,6 @@ h5, h3{color: white;}
   right: 0;
 color: white;
   position: fixed;
-  /* background: linear-gradient(45deg, blue, black, yellow); */
   border-radius: 50px;
   text-decoration: none;
 

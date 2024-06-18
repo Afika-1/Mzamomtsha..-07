@@ -79,7 +79,6 @@ color: white;
     .col-8 ul{
         position: relative;
         display: flex;
-        /* width: 350px; */
     }
     .col-8 ul li{
         position: relative;
