@@ -330,12 +330,13 @@ transform:  translateX(calc(56px * 1));
 
 }
 .popup{
-  background-color: rgb(133, 132, 132);
+  background-color:#0b3c63;
     padding: 20px 40px;
     position: fixed;
     transform: translate(-50%,-50%);
+    border: 0.1px solid black;
     left: 50%;
-    top: 60%;
+    top: 50%;
     border-radius: 8px;
     font-family: "Poppins",sans-serif;
     display: none;
@@ -384,6 +385,7 @@ transform:  translateX(calc(56px * 1));
     text-decoration: none;
     padding: 8px 0;
 }
+
 .popup1:hover{
     color: #fff;
     cursor: pointer;

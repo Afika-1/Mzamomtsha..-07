@@ -19,7 +19,7 @@ body{
     padding: 1%;
     border: 2px solid;
     border-top:100 ;
-    box-shadow:5px 10px 10px 1px black; 
+    box-shadow:5px 10px 10px 1px #0b3c63; 
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
@@ -55,7 +55,7 @@ font-size: 25px;
     background-color:#98962b; 
     padding: 1%;
     border: 2px solid;
-    box-shadow:10px 10px  black; }
+    box-shadow:10px 10px  #0b3c63; }
 summary:hover{
     transform: scale(1.05);
 cursor: pointer;
