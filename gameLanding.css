@@ -30,7 +30,7 @@ height: 100%;
 }
 header{
     color: white;
-    /* opacity: 0.8; */
+    background-color: rgba(0,0,0,0.5);
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', serif;
