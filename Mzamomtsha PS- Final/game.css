@@ -7,9 +7,8 @@
 
 
 body {
-    /* margin: 0;
-    padding: 0; */
-
+    margin: 0;
+    padding: 0;
     background-image: url('Media/bg5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -152,13 +151,16 @@ button {
 
 }
 
-footer {
-    top: 100%;
-    position: relative;
-
+/* footer {
+    bottom: 0;
+    position: absolute;
+   
 }
+.footer{
+    display: flex;
+    justify-content: center;
 
-/* NavBar Styling begins */
+} */
 header {
     color: white;
 }
