@@ -394,7 +394,7 @@ transform:  translateX(calc(56px * 1));
 
 }
 
-.chat{
+/* .chat{
   float: right;
    font-size: 60px;
    margin-right: 20px;
@@ -409,4 +409,4 @@ transform:  translateX(calc(56px * 1));
  }
  .chat a{
    padding: 5px;
- }
+ } */
