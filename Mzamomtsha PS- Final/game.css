@@ -7,16 +7,18 @@
 
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+    /* margin: 0;
+    padding: 0; */
+
     background-image: url('Media/bg5.jpg');
     background-size: cover;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+    height: 100%;
+}
 
 .game {
     float: none;
-    position:absolute;
+    position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -24,10 +26,10 @@ body {
 
 .controls {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     gap: 30px;
     margin-bottom: 10px;
-    
+
 }
 
 button {
@@ -53,7 +55,7 @@ button {
 
 .board-container {
     position: absolute;
-    
+
 
 }
 
@@ -61,7 +63,7 @@ button {
 .win {
     border-radius: 5px;
     box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
-    background: linear-gradient(135deg,  rgb(157, 255, 0) 0%,rgb(98, 98, 175) 50%,#fc6500 100%);
+    background: linear-gradient(135deg, rgb(157, 255, 0) 0%, rgb(98, 98, 175) 50%, #fc6500 100%);
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -100,11 +102,13 @@ button {
     backface-visibility: hidden;
 }
 
-.card-front, .card-back{
-display: flex;
-align-items: center;
-justify-content: center;
+.card-front,
+.card-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .card-back {
     transform: rotateY(180deg) rotateZ(50deg);
     font-size: 28pt;
@@ -129,7 +133,7 @@ justify-content: center;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: #FDF8E6;
+    background: #91d496;
     transform: rotateY(180deg) rotateZ(50deg);
 }
 
@@ -138,7 +142,7 @@ justify-content: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25pt;
+    font-size: 18pt;
     color: #282A3A;
 }
 
@@ -147,13 +151,14 @@ justify-content: center;
 
 
 }
-footer{
+
+footer {
     top: 100%;
     position: relative;
-    
-}
-/* NavBar Styling begins */
-header{
-    color: white;
+
 }
 
+/* NavBar Styling begins */
+header {
+    color: white;
+}
